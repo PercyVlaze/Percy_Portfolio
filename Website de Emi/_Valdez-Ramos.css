@@ -10,9 +10,18 @@ body {
     /* recuerda poner esto para centrar el texto */
     text-align: center;
 }
+p2 {
+    /* fuente para texto secundario */
+    font-family: "Baskervville SC", serif;
+    /* para cambiar tamaño del texto */
+    font-size: 22px;
+
+}
 
 /* Estilos para el encabezado */
 header {
+    /* tipografia de encavezado */
+    font-family: "Bodoni Moda SC", serif;
     /* Color de fondo del encabezado */
     background-color: #333;
     /* Color del texto en el encabezado */
@@ -21,6 +30,7 @@ header {
     padding: 1rem 0;
     /* Alineación del texto en el centro */
     text-align: center;
+    /* im */
 }
 
 /* Estilos para la barra de navegación */
