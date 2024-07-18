@@ -93,23 +93,7 @@ nav ul li a {
             display: block;
         }
 
-/* Estilos para los elementos de la lista en la barra de navegación */
-nav ul li {
-    /* Muestra los elementos en línea */
-    display: inline;
-    /* Elimina los márgenes */
-    margin: 0;
-}
 
-/* Estilos para los enlaces en la barra de navegación */
-nav ul li a {
-    /* Color del texto del enlace */
-    color: #fff;
-    /* Relleno interno del enlace */
-    padding: 0.5rem 2rem;
-    /* Elimina el subrayado por defecto */
-    text-decoration: none;
-}
 
 /* Estilos para el contenido principal */
 main {
