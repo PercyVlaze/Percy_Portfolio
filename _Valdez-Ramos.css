@@ -1,0 +1,118 @@
+/* Estilos globales para el cuerpo del documento */
+body {
+    /* Tipo de letra utilizado */
+    font-family: Arial, sans-serif;
+    /* Elimina los márgenes y el relleno por defecto */
+    margin: 0;
+    padding: 0;
+    /* Color de fondo del sitio web */
+    background-color: #f4f4f4;
+    /* recuerda poner esto para centrar el texto */
+    text-align: center;
+}
+p2 {
+    /* fuente para texto secundario */
+    font-family: "Baskervville SC", serif;
+    /* para cambiar tamaño del texto */
+    font-size: 22px;
+
+}
+
+p3 {
+    /* fuente para texto secundario */
+    font-family: "Croissant One", serif;
+    /* para cambiar tamaño del texto */
+    font-size: 22px;
+
+}
+
+/* Estilos para el encabezado */
+header {
+    /* tipografia de encavezado */
+    font-family: "Bodoni Moda SC", serif;
+    /* Color de fondo del encabezado */
+    background-color: #333;
+    /* Color del texto en el encabezado */
+    color: #fff;
+    /* Relleno interno del encabezado */
+    padding: 1rem 0;
+    /* Alineación del texto en el centro */
+    text-align: center;
+    /* im */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    /* fuente para texto secundario */
+    font-family: "Croissant One", serif;
+    /* para cambiar tamaño del texto */
+    font-size: 22px;
+    /* Elimina el estilo de lista por defecto */
+    list-style-type: none;
+    /* Elimina el relleno interno */
+    padding: 0;
+    /* Alineación del texto en el centro */
+    text-align: center;
+    /* Color de fondo de la barra de navegación */
+    background-color: #444;
+    /* Elimina los márgenes */
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista en la barra de navegación */
+nav ul li {
+    /* Muestra los elementos en línea */
+    display: inline-block;
+    /* Elimina los márgenes */
+    margin: 0;
+    position: relative;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+nav ul li a {
+    display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li ul li {
+            display: block;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+
+
+
+/* Estilos para el contenido principal */
+main {
+    /* Relleno interno del contenido principal */
+    padding: 1rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    /* Color de fondo del pie de página */
+    background-color: #333;
+    /* Color del texto en el pie de página */
+    color: #fff;
+    /* Alineación del texto en el centro */
+    text-align: center;
+    /* Relleno interno del pie de página */
+    padding: 1rem 0;
+    /* Fija el pie de página en la parte inferior de la página */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
